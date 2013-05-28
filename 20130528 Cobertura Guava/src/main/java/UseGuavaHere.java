@@ -11,13 +11,13 @@ import java.util.List;
  * Time: 12:59 AM
  * To change this template use File | Settings | File Templates.
  */
-public class UseGuavaHere {
+public class UseGuavaHere extends ParentClass {
     public List<String> tryUseGuava() {
         ArrayList<String> integers = Lists.newArrayList("1", "2", "3");
         return Lists.transform(integers, new Function<String, String>() {
             @Override
             public String apply(String str) {
-                return str + "hello";
+                return ParentClass.makeString(str);
             }
         });
     }
@@ -30,9 +30,5 @@ public class UseGuavaHere {
                 return makeString(str);
             }
         });
-    }
-
-    private String makeString(String str) {
-        return str + "hello";
     }
 }
