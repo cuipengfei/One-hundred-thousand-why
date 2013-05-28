@@ -7,6 +7,9 @@
  */
 public class ParentClass {
     protected static String makeString(String str) {
+        if (str.length() == 1) {
+            return str + "hello";
+        }
         return str + "hello";
     }
 }
