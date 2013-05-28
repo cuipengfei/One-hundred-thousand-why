@@ -20,4 +20,12 @@ public class UseGuavaHereTest {
         assertThat(strings.get(1), is("2hello"));
         assertThat(strings.get(2), is("3hello"));
     }
+
+    @Test
+    public void testTryUseGuava2() throws Exception {
+        List<String> strings = new UseGuavaHere().tryUseGuava2();
+        assertThat(strings.get(0), is("1hello"));
+        assertThat(strings.get(1), is("2hello"));
+        assertThat(strings.get(2), is("3hello"));
+    }
 }

@@ -21,4 +21,18 @@ public class UseGuavaHere {
             }
         });
     }
+
+    public List<String> tryUseGuava2() {
+        ArrayList<String> integers = Lists.newArrayList("1", "2", "3");
+        return Lists.transform(integers, new Function<String, String>() {
+            @Override
+            public String apply(String str) {
+                return makeString(str);
+            }
+        });
+    }
+
+    private String makeString(String str) {
+        return str + "hello";
+    }
 }
