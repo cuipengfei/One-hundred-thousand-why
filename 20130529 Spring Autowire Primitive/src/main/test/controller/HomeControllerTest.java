@@ -18,7 +18,8 @@ public class HomeControllerTest {
 
     @Test
     public void testTest() throws Exception {
-        homeController.test(null);
+        homeController.method1();
         assertThat(homeController.getTryInjectInteger(), is(123));
+        assertThat(homeController.getTryInjectString(), is("456"));
     }
 }
