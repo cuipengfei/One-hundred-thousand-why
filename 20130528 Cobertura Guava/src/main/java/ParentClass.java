@@ -1,5 +1,5 @@
 public class ParentClass {
-    protected static String makeString(String str) {
+    protected String makeString(String str) {
         StringBuilder sb = new StringBuilder();
         sb.append(str);
         sb.append("h");
