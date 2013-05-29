@@ -1,12 +1,11 @@
-/**
- * Created with IntelliJ IDEA.
- * User: twer
- * Date: 5/29/13
- * Time: 1:23 AM
- * To change this template use File | Settings | File Templates.
- */
 public class ParentClass {
     protected static String makeString(String str) {
-        return str + "hello";
+        StringBuilder sb = new StringBuilder();
+        sb.append(str);
+        sb.append("h");
+        sb.append("e");
+        sb.append("ll");
+        sb.append("o");
+        return sb.toString();
     }
 }
