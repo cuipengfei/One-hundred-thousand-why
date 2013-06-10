@@ -10,6 +10,8 @@ public class UseGuavaHere {
         return Lists.transform(integers, new Function<String, String>() {
             @Override
             public String apply(String str) {
+                //里面这段代码不会执行的，因为测试没有去读取List里面的元素，只是判断List不是null
+                //因为Guava的transform是延迟执行的，所以不会运行。
                 StringBuilder sb = new StringBuilder();
                 sb.append(str);
                 sb.append("h");
