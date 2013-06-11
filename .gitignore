@@ -17,3 +17,21 @@
 20130529 Spring Autowire Primitive/20130529SpringAutowirePrimitive.iml
 
 20130529 Spring Autowire Primitive/target/
+
+20130530 GuavaListInit/.gradle/
+20130530 GuavaListInit/20130530 GuavaListInit.iml
+
+*.ipr
+
+*.iws
+
+20130530 GuavaListInit/build/
+20130530 GuavaListInit/out/
+20130604 AndroidHiddenAPI/MyApplicationProject/.gradle/
+20130604 AndroidHiddenAPI/MyApplicationProject/.idea/
+*.iml
+
+20130604 AndroidHiddenAPI/MyApplicationProject/MyApplication/build/
+20130605 HamcrestContainsMismatch/.gradle/
+20130605 HamcrestContainsMismatch/build/
+20130605 HamcrestContainsMismatch/out/
