@@ -29,4 +29,4 @@ setWifiApEnabled是怎么隐藏掉的？
 
 hamcrest的matchers，contains这个方法失败时为什么报的是method not found，而不是expected和actual不符呢？
 
-这是dependency conflict造成的。主要原因是JUnit自己画蛇添足的声明了一个org.hamcrest.Matcher的接口（[（详情见代码内注释）](https://github.com/cuipengfei/DailyStackOverflowQuestion/blob/master/20130605%20HamcrestContainsMismatch/src/test/java/HamcrestContainsTest.java)。
+这是dependency conflict造成的。主要原因是JUnit自己画蛇添足的声明了一个org.hamcrest.Matcher的接口[（详情见代码内注释）](https://github.com/cuipengfei/DailyStackOverflowQuestion/blob/master/20130605%20HamcrestContainsMismatch/src/test/java/HamcrestContainsTest.java)。
