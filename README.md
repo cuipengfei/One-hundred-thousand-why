@@ -43,6 +43,6 @@ hamcrest的matchers，contains这个方法失败时为什么报的是method not 
 
 ###2013 06 11
 
-A<? extends B>与A<B>。wild card的应用场景是啥？
+A<? extends X>与A<x>,wild card的应用场景是啥？
 
 [（详情见代码内注释）](https://github.com/cuipengfei/One-hundred-thousand-why/blob/master/20130611JavaGenericsWildCard/src/TryWildCard.java)。
