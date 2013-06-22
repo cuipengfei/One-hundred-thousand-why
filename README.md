@@ -43,6 +43,14 @@ hamcrest的matchers，contains这个方法失败时为什么报的是method not 
 
 ###2013 06 11
 
-A<? extends X>与A<x>,wild card的应用场景是啥？
+A<? extends X> 与 A < x > ,wild card的应用场景是啥？
 
 [（详情见代码内注释）](https://github.com/cuipengfei/One-hundred-thousand-why/blob/master/20130611JavaGenericsWildCard/src/TryWildCard.java)。
+
+###2013 06 21
+
+为什么Java中的匿名内部类只可以访问final的局部变量呢？其他语言中的匿名函数也有类似的限制吗？
+
+[解释见博客](http://cuipengfei.me/blog/2013/06/22/why-does-it-have-to-be-final/)
+
+[代码在这里](https://github.com/cuipengfei/One-hundred-thousand-why/tree/master/20130621WhyDoesItHaveToBeFinal)
