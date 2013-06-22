@@ -19,7 +19,7 @@ class TryUsingAnonymousClassInScala {
     println(number)
   }
 
-  def useMyInterfaceWithLambda {
+  def tryAccessingLocalVariable {
     var number = 123
     println(number)
 

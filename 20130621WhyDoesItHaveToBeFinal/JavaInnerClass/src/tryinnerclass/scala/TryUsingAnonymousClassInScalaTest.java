@@ -7,6 +7,6 @@ public class TryUsingAnonymousClassInScalaTest {
     public void testUseMyInterface() throws Exception {
         new TryUsingAnonymousClassInScala().useMyInterface();
         System.out.println("===================");
-        new TryUsingAnonymousClassInScala().useMyInterfaceWithLambda();
+        new TryUsingAnonymousClassInScala().tryAccessingLocalVariable();
     }
 }
