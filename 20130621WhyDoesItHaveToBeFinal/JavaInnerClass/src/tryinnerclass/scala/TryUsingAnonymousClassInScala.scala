@@ -7,7 +7,6 @@ class TryUsingAnonymousClassInScala {
     var number = 123
     println(number)
 
-
     var myInterface = new MyInterface {
       def doSomething() {
         number = 456
