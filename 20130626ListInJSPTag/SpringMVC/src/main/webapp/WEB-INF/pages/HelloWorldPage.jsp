@@ -7,7 +7,9 @@
 
 <h2>${msg}</h2>
 
-<mytagNameSpace:mytag></mytagNameSpace:mytag>
+<mytagNameSpace:mytag
+        firstList="${list1}"
+        secondList="${list1}"/>
 
 </body>
 </html>
