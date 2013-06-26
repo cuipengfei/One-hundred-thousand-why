@@ -55,8 +55,6 @@ A<? extends X> 与 A < x > ,wild card的应用场景是啥？
 
 [代码在这里](https://github.com/cuipengfei/One-hundred-thousand-why/tree/master/20130621WhyDoesItHaveToBeFinal)
 
-###2013 06 24
+###2013 06 26
 
-__dirname
-何谓异步I/O？
-javascript 异步编程
+为什么JSP向tag中传递的list打印出来时加有[]？
