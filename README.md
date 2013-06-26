@@ -54,3 +54,9 @@ A<? extends X> 与 A < x > ,wild card的应用场景是啥？
 [解释见博客](http://cuipengfei.me/blog/2013/06/22/why-does-it-have-to-be-final/)
 
 [代码在这里](https://github.com/cuipengfei/One-hundred-thousand-why/tree/master/20130621WhyDoesItHaveToBeFinal)
+
+###2013 06 24
+
+__dirname
+何谓异步I/O？
+javascript 异步编程
