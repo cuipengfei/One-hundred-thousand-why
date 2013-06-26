@@ -1,0 +1,18 @@
+为什么JSP向tag中传递的list打印出来时加有[和]？
+
+这是个tricky的问题，解释分三点：
+
+1. 在tag中声明接受一个attribute时如果声明为这样：
+<%@ attribute name="firstList" required="true" %>
+那么默认类型为String。
+如果声明成这样：
+<%@ attribute name="secondList" required="true" type="java.util.ArrayList" %>
+那就没问题了。
+
+2. 一个list在jsp中被evaluate成String之后是这样的：
+[item1, item2, item3]
+
+3. jstl core中的foreach做了个很不intuitive的事情。
+如果我们给它一个String，而且String中含有逗号的话，它会把字符串拆开然后再foreach。
+
+所以。。。。。。

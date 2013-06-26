@@ -58,3 +58,6 @@ A<? extends X> 与 A < x > ,wild card的应用场景是啥？
 ###2013 06 26
 
 为什么JSP向tag中传递的list打印出来时加有[]？
+
+[解释在这里](https://github.com/cuipengfei/One-hundred-thousand-why/tree/master/20130626ListInJSPTag/SpringMVC/compiledjspandtag/explaination.txt)
+[重现的代码在这里](https://github.com/cuipengfei/One-hundred-thousand-why/tree/master/20130626ListInJSPTag/SpringMVC)
