@@ -5,5 +5,13 @@
 </head>
 <body>
 this is the second page
+
+<br/>
+session hash:
+<%= session.hashCode() %>
+<br/>
+someclass hash:
+<%= session.getAttribute("someClass").hashCode() %>
+
 </body>
 </html>

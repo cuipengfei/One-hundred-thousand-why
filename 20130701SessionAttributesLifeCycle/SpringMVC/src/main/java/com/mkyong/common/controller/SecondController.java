@@ -14,8 +14,11 @@ public class SecondController {
 
     @RequestMapping(value = "secondpage", method = GET)
     public String myHandler(SomeClass someClass, HttpSession httpSession) {
-        someClass.setNumber(456);
-        someClass.setStr("456");
+        //asking spring for the SomeClass parameter, that's why we put it in the annotation.
+        System.out.print(someClass.hashCode());
+
+        httpSession.invalidate();
+
         return "secondpage";
     }
 }
