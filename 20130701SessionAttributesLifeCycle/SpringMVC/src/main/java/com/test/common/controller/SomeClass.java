@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.test.common.controller;
 
 public class SomeClass {
     private String str;
