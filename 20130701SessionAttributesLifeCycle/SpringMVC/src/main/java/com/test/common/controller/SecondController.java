@@ -10,13 +10,12 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @Controller
 @SessionAttributes(types = SomeClass.class)
+//@SessionAttributes(types = SomeOtherClass.class)
+//@SessionAttributes(types = {SomeClass.class, SomeOtherClass.class})
 public class SecondController {
 
     @RequestMapping(value = "secondpage", method = GET)
-    public String myHandler(SomeClass someClass, HttpSession httpSession) {
-        //asking spring for the SomeClass parameter, that's why we put it in the annotation.
-        System.out.print(someClass.hashCode());
-
+    public String myHandler(SomeClass obj1, SomeOtherClass obj2, HttpSession httpSession) {
         httpSession.invalidate();
 
         return "secondpage";
