@@ -1,5 +1,15 @@
 #Personal statement of Zhang Qiaoyuan
 
-I will put the contents of this document here.
+Being from China and never been abroad, I have always wanted to explore the territories that are uncharted for me.
 
-Check back any time to see the latest version.
+California, the state that has been pushing the boundaries of legislation and leading in various social innovations became my first choice.
+
+#### Why would I be a suitable candidate for Haas
+
+* a
+
+* b
+
+* c
+
+Ending
